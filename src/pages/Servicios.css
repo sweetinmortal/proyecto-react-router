@@ -1,0 +1,31 @@
+.servicios {
+  padding: 2rem;
+}
+
+.filtros {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filtros button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.lista-servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.servicio-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.servicio-card h3 {
+  margin-bottom: 0.5rem;
+}
