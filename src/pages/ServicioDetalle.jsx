@@ -72,7 +72,7 @@ const ServicioDetalle = () => {
     );
   }, [servicio]);
 
-  // 🛑 Caso: parámetro inválido
+  // Caso: parámetro inválido
   if (!idEsValido) {
     return (
       <section>
@@ -83,7 +83,7 @@ const ServicioDetalle = () => {
     );
   }
 
-  // 🛑 Caso: servicio no existe
+  // Caso: servicio no existe
   if (!servicio) {
     return (
       <section>
