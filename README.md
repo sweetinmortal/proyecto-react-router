@@ -37,5 +37,5 @@ npm run dev
 
 ## Gif
 
-![Gif Página Web del Proyecto](proyecto_react_router.gif)
+![Gif Página Web del Proyecto](src/img/proyecto_react_router.gif)
 
