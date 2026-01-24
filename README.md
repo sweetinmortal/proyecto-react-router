@@ -21,21 +21,21 @@ El sitio mantiene una estructura clara, navegación persistente y diseño respon
 ## Instalación
 ```bash
 npm install
-npm install react-router-dom  #si fuera necesario
 npm run dev
 ```
 
 ## Mapa de rutas
 
-(No definitivo)
+| URL            | Ruta           | Componente    | Descripción           |
+| -------------- | -------------- | ------------- | --------------------- |
+| /              | /              | Home          | Página de inicio      |
+| /acerca        | /acerca        | About         | Información del sitio |
+| /contacto      | /contacto      | Contact       | Página de contacto    |
+| /servicios     | /servicios     | Services      | Lista de servicios    |
+| /servicios/:id | /servicios/:id | ServiceDetail | Detalle de servicio   |
+| *              | *              | NotFound      | Página 404            |
 
-| URL           | Ruta           | Componente    | Descripción           |
-| ------------- | -------------- | ------------- | --------------------- |
-| /             | /              | Home          | Página de inicio      |
-| /             | /acerca        | About         | Información del sitio |
-| /             | /contacto      | Contact       | Página de contacto    |
-| /             | /servicios     | Services      | Lista de servicios    |
-| /             | /servicios/:id | ServiceDetail | Detalle de servicio   |
-| *             | *              | NotFound      | Página 404            |
+## Gif
 
-## Capturas de pantalla
+![Gif Página Web del Proyecto](proyecto_react_router.gif)
+
