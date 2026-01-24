@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+}
+
+.header nav a {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.header nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.footer {
+    background: #eee;
+    text-align: center;
+    padding: 1rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

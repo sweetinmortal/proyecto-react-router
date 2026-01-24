@@ -1,0 +1,200 @@
+
+
+.servicios h1 {
+  text-align: center;
+  color: #1a365d;
+  margin-bottom: 1rem;
+}
+
+.servicios > p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #64748b;
+}
+
+/* Filtros */
+.filtros {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.filtros button {
+  padding: 8px 16px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #475569;
+}
+
+.filtros button:hover,
+.filtros button:focus {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+
+.lista-servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+
+.servicio-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border-top: 4px solid #3b82f6;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.servicio-card:hover {
+  transform: translateY(-5px); /* Efecto de elevación */
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.servicio-card h3 {
+  color: #1e293b;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+.servicio-card p {
+  color: #64748b;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.servicio-card a {
+  display: inline-block;
+  text-align: center;
+  background-color: #f1f5f9;
+  color: #1a365d;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.servicio-card a:hover {
+  background-color: #1a365d;
+  color: white;
+}
+
+/* --- ESTILOS ESPECÍFICOS PARA DETALLE --- */
+
+.detalle-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.detalle-card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  max-width: 800px;
+  width: 100%;
+  border-left: 8px solid #1a365d; /* Franja azul de la ESPE */
+}
+
+.breadcrumb {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: #64748b;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #3b82f6;
+}
+
+.categoria-tag {
+  background: #e0e7ff;
+  color: #4338ca;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.detalle-card h1 {
+  color: #1a365d;
+  font-size: 2.5rem;
+  margin: 15px 0;
+}
+
+.descripcion-larga {
+  font-size: 1.2rem;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+/* Tecnologías como etiquetas modernas */
+.tech-stack {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.tech-item {
+  background: #f1f5f9;
+  color: #1a365d;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  border: 1px solid #cbd5e1;
+  font-weight: 500;
+}
+
+.relacionados {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.relacionados h3 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #1a365d;
+}
+
+.relacionados ul {
+    list-style: none;
+    padding: 0;
+}
+
+.relacionados a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.relacionados a:hover {
+    text-decoration: underline;
+}
+
+.btn-volver {
+  color: #64748b;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btn-volver:hover {
+  color: #1a365d;
+}
