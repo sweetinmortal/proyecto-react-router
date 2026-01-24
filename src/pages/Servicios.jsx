@@ -1,6 +1,6 @@
 import { useState, useMemo, useCallback } from "react";
 import { Link } from "react-router-dom";
-import ListaServicios from "../components/servicios/ListaServicios";
+import ListaServicios from "../components/ListaServicios";
 import "./Servicios.css";
 
 const Servicios = () => {
