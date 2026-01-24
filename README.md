@@ -27,13 +27,15 @@ npm run dev
 
 ## Mapa de rutas
 
-| Ruta           | Componente    | Descripción           |
-| -------------- | ------------- | --------------------- |
-| /              | Home          | Página de inicio      |
-| /acerca        | About         | Información del sitio |
-| /contacto      | Contact       | Página de contacto    |
-| /servicios     | Services      | Lista de servicios    |
-| /servicios/:id | ServiceDetail | Detalle de servicio   |
-| *              | NotFound      | Página 404            |
+(No definitivo)
+
+| URL           | Ruta           | Componente    | Descripción           |
+| ------------- | -------------- | ------------- | --------------------- |
+| /             | /              | Home          | Página de inicio      |
+| /             | /acerca        | About         | Información del sitio |
+| /             | /contacto      | Contact       | Página de contacto    |
+| /             | /servicios     | Services      | Lista de servicios    |
+| /             | /servicios/:id | ServiceDetail | Detalle de servicio   |
+| *             | *              | NotFound      | Página 404            |
 
 ## Capturas de pantalla
